@@ -19,6 +19,7 @@ The analysis revealed that between 49% and 67% of the campaigns analyzed were su
 The analysis revealed that between 31% and 47% of campaigns analyzed failed. May had the lowest number of failed campaigns with 31% or 52 out of 166 campaigns. The highest percent of failed campaigns were in December with 47% or 35 out of 75 campaigns. 
 ### Analysis of Outcomes Based on Goals
 
+![image](https://user-images.githubusercontent.com/88912539/131234257-98643011-5388-4e09-aa3d-ec63b31c471a.png)
 
 
 
