@@ -10,9 +10,7 @@ The analysis was conducted on a database that consisted of 4113 datapoints that 
 When defining the criteria for the =CountIF function, if the analyst does not use <= and >= the data returned will not be correct. Also, a challenge could be created if all the datapoints are not accounted for in the number of successful, failed, canceled and total projects calculations.  
 ### Analysis of Outcomes Based on Launch Date
 
-
-
-
+![image](https://user-images.githubusercontent.com/88912539/131234260-063b2e8c-b7cd-4ae3-b169-fce7c9f14bba.png)
 
 The analysis revealed that between 49% and 67% of the campaigns analyzed were successful. December had the lowest percent with 49% or 37 successful campaigns out of 75 launched campaigns. May had the highest percent with 67% or 111 successful campaigns out of 166 launched campaigns.   
 
@@ -20,8 +18,6 @@ The analysis revealed that between 31% and 47% of campaigns analyzed failed. May
 ### Analysis of Outcomes Based on Goals
 
 ![image](https://user-images.githubusercontent.com/88912539/131234257-98643011-5388-4e09-aa3d-ec63b31c471a.png)
-
-
 
 The majority of successful Kickstarter campaigns had a fundraising goal of less than $5,000 with greater than 70% success rate. Fundraising goals between $35,000 to $45,000 had some success with 67% of the campaigns successful. However, it should be noted that there were a small number of campaigns of this size. There were 9 campaigns and 6 were successful. 
 ## Results 
