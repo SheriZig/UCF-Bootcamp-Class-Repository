@@ -7,7 +7,6 @@ The purpose of this analysis is to determine the various outcomes (successful, f
 ## Analysis and Challenges
 The analysis was conducted on a database that consisted of 4113 datapoints that included a wide variety of categories and subcategories. For the purposes of this analysis, the dataset was filtered to only include the ‘Theater’ category and ‘Plays’ subcategory. The date range of the data was between 2010 and 2017. 
 
-When defining the criteria for the =CountIF function, if the analyst does not use <= and >= the data returned will not be correct. Also, a challenge could be created if all the datapoints are not accounted for in the number of successful, failed, canceled and total projects calculations.  
 ### Analysis of Outcomes Based on Launch Date
 
 ![image](https://user-images.githubusercontent.com/88912539/131234260-063b2e8c-b7cd-4ae3-b169-fce7c9f14bba.png)
@@ -26,6 +25,8 @@ The best time to launch a campaign is in the Spring. There is a steady increase 
 I would conclude that the launch date has an impact on the outcome of the campaign. 
 ### Conclusions for outcomes based on fundraising goal
 When setting the fundraising goal for a Kickstarter campaign, the chances of a successful campaign increase for goals below $5,000. The trend for successful campaigns remains above the number of fail campaigns up to $20,000. Above $20,000 more campaigns fail than succeed with the small exceptions noted in the $35,000 to $45,000 range. 
+### Challenges encountered during analysis
+When defining the criteria for the =CountIF function, if the analyst does not use <= and >= the data returned will not be correct. Also, a challenge could be created if all the datapoints are not accounted for in the number of successful, failed, canceled and total projects calculations.
 ### Limitations of the supplied dataset
 The dataset lacked any geographic information which can affect the fundraising efforts. Geographic locations can play a role in the spending habits of backers. 
 The most current data is 4 years old. It is unknown what impact current data would have on the conclusions drawn based on the supplied dataset. The additional data would be helpful in determining if economic conditions for the timeframe would reveal any significant changes in the analysis.
