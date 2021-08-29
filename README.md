@@ -19,14 +19,14 @@ The analysis revealed that between 31% and 47% of campaigns analyzed failed. May
 ![image](https://user-images.githubusercontent.com/88912539/131234257-98643011-5388-4e09-aa3d-ec63b31c471a.png)
 
 The majority of successful Kickstarter campaigns had a fundraising goal of less than $5,000 with greater than 70% success rate. Fundraising goals between $35,000 to $45,000 had some success with 67% of the campaigns successful. However, it should be noted that there were a small number of campaigns of this size. There were 9 campaigns and 6 were successful. 
+### Challenges encountered during analysis
+When defining the criteria for the =CountIF function, if the analyst does not use <= and >= the data returned will not be correct. Also, a challenge could be created if all the datapoints are not accounted for in the number of successful, failed, canceled and total projects calculations.
 ## Results 
 ### Conclusions for outcomes based on Launch Date
 The best time to launch a campaign is in the Spring. There is a steady increase in successful campaigns beginning in March and steadily increasing with the peak in May. Notice that the successful campaigns are more than double the number of failed campaigns. The number of successful campaigns decreases for the rest of the year with a small uptick in October. 
 I would conclude that the launch date has an impact on the outcome of the campaign. 
 ### Conclusions for outcomes based on fundraising goal
 When setting the fundraising goal for a Kickstarter campaign, the chances of a successful campaign increase for goals below $5,000. The trend for successful campaigns remains above the number of fail campaigns up to $20,000. Above $20,000 more campaigns fail than succeed with the small exceptions noted in the $35,000 to $45,000 range. 
-### Challenges encountered during analysis
-When defining the criteria for the =CountIF function, if the analyst does not use <= and >= the data returned will not be correct. Also, a challenge could be created if all the datapoints are not accounted for in the number of successful, failed, canceled and total projects calculations.
 ### Limitations of the supplied dataset
 The dataset lacked any geographic information which can affect the fundraising efforts. Geographic locations can play a role in the spending habits of backers. 
 The most current data is 4 years old. It is unknown what impact current data would have on the conclusions drawn based on the supplied dataset. The additional data would be helpful in determining if economic conditions for the timeframe would reveal any significant changes in the analysis.
